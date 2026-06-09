@@ -63,6 +63,40 @@
           </tbody></table>
    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <hr style="width:95%">
+	  <tr onmouseout="bog_stop()" onmouseover="bog_start()">
+      <td style="padding:20px;width:30%;vertical-align:top">
+        <div class="one">
+          <div class="two" id='bog_image'><video  width=140% height="130%" muted autoplay loop>
+          <source src="images/UHDPromer.jpg" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/UHDPromer.jpg' width=140% height="130%">
+        </div>
+        <script type="text/javascript">
+          function bog_start() {
+            document.getElementById('bog_image').style.opacity = "1";
+          }
+          function bog_stop() {
+            document.getElementById('bog_image').style.opacity = "0";
+          }
+          bog_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:top">
+			<span class="papertitle">Neural Discrimination-Prompted Transformers for Efficient UHD Image Restoration and Enhancement
+</span>
+        <br>
+        <br>
+         Cong Wang, Jinshan Pan, <strong>Liyan Wang</strong>,  Wei Wang, and Yang Yang
+        <br>
+		 <br>
+        <em> International Journal of Computer Vision (中科院二区/CCF-A)</em>, 2025 &nbsp <font color="red"></font>
+        <br>
+        <a href="Neural Discrimination-Prompted Transformers for Efficient UHD Image Restoration and Enhancement">paper</a>
+        /
+        <a href="https://github.com/supersupercong/UHDPromer">Code</a>
+      </td>
+    </tr>
   <tr onmouseout="bog_stop()" onmouseover="bog_start()">
       <td style="padding:20px;width:30%;vertical-align:top">
         <div class="one">
